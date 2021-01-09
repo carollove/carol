@@ -14,7 +14,6 @@ client.on('message', (message) => {
     }
 });
 
-
 client.on('message', (message) => {
     if(message.content === '캐롤교') {
         message.channel.send('캐롤교의 교주는 리은님 입니다. 부교주는 준님 입니다. 절 탄생시켜준 분은 리은님 입니다. 전 언제나 그분을 사랑하죠 ❤')
